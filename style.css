@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+/* header style */
+.hero-section{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    min-width: 80%;
+    max-width: 80%;
+    margin-top: 10px;
+    padding: 1rem;
+    box-shadow: 10px 5px 5px gray;
+
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* End header style */
+/* Body style */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.employee-detail{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    min-width: 80%;
+    padding: 1rem;
+    margin-top: 10px;
+    box-shadow: 10px 5px 5px gray;
+}
+.employee-detail:nth-child(odd){
+    border: 1px solid red;
+    box-shadow: 0px 0px 0px gray;
+
+}
