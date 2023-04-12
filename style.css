@@ -4,16 +4,16 @@
     box-sizing: border-box;
 }
 body{
-    background-color: lightgray;
+    background-color: #F8F9F9 ;
 }
 /* header style */
 .hero-section{
-    /* border: 1px solid red; */
     margin: 0 auto;
     min-width: 80%;
-    max-width: 80%;
+    max-width: 90%;
     margin-top: 10px;
     padding: 1rem;
+    background-color: #F8F9F9 ;
     box-shadow: 10px 5px 5px gray;
 
 }
@@ -31,19 +31,40 @@ body{
     flex-wrap: wrap;
 }
 .employee-detail{
-    /* border: 1px solid red; */
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    width: 100%;
     max-width: 90%;
     min-width: 80%;
     padding: 1rem;
     margin-top: 10px;
     box-shadow: 10px 5px 5px gray;
+    background-color: #EAECEE;
 }
 .employee-detail:nth-child(odd){
-    border: 1px solid red;
-    box-shadow: 0px 0px 0px gray;
+    background-color: #F2F4F4;
+}
+ .name{
+    width: 30%;
+    max-width: 20%;
+    text-align: start;
 
+}
+.dob{
+    align-self: start;
+    margin: 0 auto;
+    width: 25%;
+    max-width: 100%;
+    text-align: center;
+}
+.dob h3{
+    position: relative;
+    left: 70px;
+}
+.address{
+    width: 40%;
+    max-width: 35%;
+    text-align: right;
 }
